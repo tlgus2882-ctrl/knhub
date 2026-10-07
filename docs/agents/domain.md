@@ -49,3 +49,22 @@ If the concept you need isn't in the glossary yet, that's a signal: either you'r
 If your output contradicts an existing ADR, surface it explicitly rather than silently overriding:
 
 > _Contradicts ADR-0007 (event-sourced orders), but worth reopening because…_
+
+## Code names
+
+Code (tables, columns, types, variables) uses these English names for the `GLOSSARY.md` terms. Don't invent synonyms.
+
+| 용어 | 코드 이름 |
+|---|---|
+| 사용자 / 프로필 | `profile` |
+| 과목 | `course` |
+| 수강생 | `enrollment` (수강 관계) |
+| 조교 | `course_assistant` |
+| 과제 | `assignment` |
+| 마감일 | `due_at` |
+| 공개 범위 | `visibility`: `private` / `course` / `campus` |
+| 제출물 | `submission` |
+| 제출 파일 | `submission_file` |
+| 리뷰 | `review` |
+| 연락처 공개 범위 | `contact_visibility`: `public` / `course` / `private` |
+| 초대 코드 | `invite_code` |
